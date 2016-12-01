@@ -66,4 +66,4 @@ Then `Cmd+R` to start the React Packager, build and run the project in the simul
 MIT License
 This module base on https://github.com/recr0ns/react-native-material-switch . Thank @recr0ns.
 ### Questions?
-Feel free to [create an issue](https://github.com/tiempham/react-native-base-switch.git/issues)
+Feel free to [create an issue](https://github.com/tiempham/react-native-base-switch/issues)
