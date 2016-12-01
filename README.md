@@ -18,7 +18,7 @@ npm install react-native-material-switch
 
 ### Usage example
 ```javascript
-var Switch = require('react-native-material-switch');
+var Switch = require('react-native-base-switch');
 
 var Application = React.createClass({
   render: function() {
@@ -64,6 +64,6 @@ Then `Cmd+R` to start the React Packager, build and run the project in the simul
 
 ### License
 MIT License
-
+This module base on https://github.com/recr0ns/react-native-material-switch . Thank @recr0ns.
 ### Questions?
-Feel free to [create an issue](https://github.com/Recr0ns/react-native-material-switch/issues)
+Feel free to [create an issue](https://github.com/tiempham/react-native-base-switch.git/issues)
