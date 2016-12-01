@@ -18,8 +18,7 @@ npm install react-native-base-switch
 
 ### Usage example
 ```javascript
-var Switch = require('react-native-base-switch');
-
+import { Switch } from 'react-native-base-switch';
 var Application = React.createClass({
   render: function() {
     return (
