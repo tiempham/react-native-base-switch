@@ -168,6 +168,8 @@ class Switch extends React.Component {
             height: this.props.switchHeight,
             width: this.props.switchWidth,
             borderRadius: this.props.switchHeight/2,
+            borderWidth: this.props.borderWidth,
+            borderColor: this.props.borderColor,
           }}/>
         <TouchableHighlight underlayColor='transparent' activeOpacity={1} style={{
             height: Math.max(this.props.buttonRadius*2+doublePadding, this.props.switchHeight+doublePadding),
@@ -222,6 +224,8 @@ Switch.defaultProps = {
   buttonContent: null,
   enableSlide: true,
   switchAnimationTime: 200,
+  borderWidth: 1,
+  borderColor: '#ddd',
   onActivate: () => {
   },
   onDeactivate: () => {
@@ -231,3 +235,4 @@ Switch.defaultProps = {
 };
 
 export { Switch };
+
