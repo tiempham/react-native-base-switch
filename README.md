@@ -19,15 +19,15 @@ npm install react-native-base-switch
 ### Usage example
 ```javascript
 import { Switch } from 'react-native-base-switch';
-var Application = React.createClass({
-  render: function() {
+class Application extends React.Component {
+  render() {
     return (
-      <View>
-        <Switch onChangeState={(state)=>{alert(state)}}/>
+      <View style={{padding: 20, flex:1,backgroundColor:'#ddd'}}>
+            <Switch/>
       </View>
     );
   }
-});
+}
 ```
 
 ### Properties
@@ -63,6 +63,6 @@ Then `Cmd+R` to start the React Packager, build and run the project in the simul
 
 ### License
 MIT License
-This module base on https://github.com/recr0ns/react-native-material-switch . Thank @recr0ns.
+This module base on https://github.com/recr0ns/react-native-material-switch, Thank @recr0ns for this version
 ### Questions?
 Feel free to [create an issue](https://github.com/tiempham/react-native-base-switch/issues)
