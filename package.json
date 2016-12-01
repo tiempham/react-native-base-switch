@@ -1,6 +1,6 @@
 {
   "name": "react-native-base-switch",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Customizable style react-native switch, same style on ios and android",
   "main": "index.js",
   "scripts": {
