@@ -13,7 +13,7 @@
 
 ### Installation
 ```bash
-npm install react-native-material-switch
+npm install react-native-base-switch
 ```
 
 ### Usage example
