@@ -235,4 +235,3 @@ Switch.defaultProps = {
 };
 
 export { Switch };
-
