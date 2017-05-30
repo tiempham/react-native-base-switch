@@ -34,6 +34,7 @@ var Application = React.createClass({
 ### Properties
 * `active` (Boolean) - Initial switch state (default: false),
 * `style` (Object) - Styles for outer container (margins, ...),
+* `padding` (Integer) - Padding of outer container (default: 2),
 * `inactiveButtonColor` (String) - Button color  (default: '#2196F3'),
 * `inactiveButtonPressedColor` (String) (default: '#42A5F5'),
 * `activeButtonColor` (String) (default: '#FAFAFA'),
