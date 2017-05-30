@@ -10,7 +10,6 @@ class Switch extends React.Component {
       state: this.props.active,
       position: new Animated.Value(this.props.active ? w : 0),
     };
-    this.padding = 2;
     this.start = {};
   }
 
@@ -166,12 +165,12 @@ class Switch extends React.Component {
   };
 
   render() {
-    let doublePadding = this.padding * 2 - 2;
+    let doublePadding = this.props.padding * 2 - 2;
     let halfPadding = doublePadding / 2;
     return (
       <View
         {...this._panResponder.panHandlers}
-        style={{padding: this.padding, position: 'relative'}}>
+        style={{padding: this.props.padding, position: 'relative'}}>
         <View
           style={{
             backgroundColor: this.state.state ? this.props.activeBackgroundColor : this.props.inactiveBackgroundColor,
@@ -216,6 +215,7 @@ class Switch extends React.Component {
 Switch.defaultProps = {
   active: false,
   style: {},
+  padding: 2,
   inactiveButtonColor: '#2196F3',
   inactiveButtonPressedColor: '#42A5F5',
   activeButtonColor: '#FAFAFA',
